@@ -1,0 +1,57 @@
+@font-face {
+font-family: "Jumpman"; src: url("//db.onlinewebfonts.com/t/d68832c26380db8561b614f47bd7b842.eot"); src: url("//db.onlinewebfonts.com/t/d68832c26380db8561b614f47bd7b842.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d68832c26380db8561b614f47bd7b842.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d68832c26380db8561b614f47bd7b842.woff") format("woff"), url("//db.onlinewebfonts.com/t/d68832c26380db8561b614f47bd7b842.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d68832c26380db8561b614f47bd7b842.svg#Jumpman") format("svg"); 
+}
+
+@font-face {font-family: "MuseoW01-900"; src: url("//db.onlinewebfonts.com/t/4cc9d692753925335e7af83ecf6e6815.eot"); src: url("//db.onlinewebfonts.com/t/4cc9d692753925335e7af83ecf6e6815.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4cc9d692753925335e7af83ecf6e6815.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4cc9d692753925335e7af83ecf6e6815.woff") format("woff"), url("//db.onlinewebfonts.com/t/4cc9d692753925335e7af83ecf6e6815.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4cc9d692753925335e7af83ecf6e6815.svg#MuseoW01-900") format("svg"); }
+
+@font-face {
+    font-family: "TrulyMadlyDpad";
+    src: url("assets/Fonts/truly-madly-dpad/TrulyMadlyDpad.ttf") format("TrulyMadlyDpa")
+}
+
+@font-face {font-family: "Noteworthy"; src: url("//db.onlinewebfonts.com/t/f4bc352b52c96ca087093d36bd2396bb.eot"); src: url("//db.onlinewebfonts.com/t/f4bc352b52c96ca087093d36bd2396bb.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f4bc352b52c96ca087093d36bd2396bb.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f4bc352b52c96ca087093d36bd2396bb.woff") format("woff"), url("//db.onlinewebfonts.com/t/f4bc352b52c96ca087093d36bd2396bb.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f4bc352b52c96ca087093d36bd2396bb.svg#Noteworthy") format("svg"); }
+
+@import url('https://fonts.googleapis.com/css?family=Google+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100, 200, 400, 500, 600, 700,800&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(to right top, #f6a817, #ff8d4d, #ff787f, #ff75af, #e980d7);
+}
+
+.page-title {
+    color: #7a2b6d;
+    font-family: Google Sans, Open Sans;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 5em;
+}
+.game-info-container{
+    grid-column: 1/-1;
+}
+.game-info{
+    font-family: TrulyMadlyDpad, sans-serif;
+    color: black;
+    font-size: 2rem;
+}
+
+.game-container{
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-gap: 10px;
+}
+.card{
+    background: black;
+    height: 175px;
+    width: 125px;
+}
